@@ -7,7 +7,7 @@ import { Input } from '@angular/core';
   styleUrls: ['./product-alerts.component.css']
 })
 eexport class ProductAlertsComponent implements OnInit {
-  @Input() product!: Product;
+  @Input() product;
   constructor() { }
 
   ngOnInit() {
